@@ -46,4 +46,9 @@ public class OrasTest {
         Oras.pull("https://ghcr.io/v2/"+repo+"/blobs/"+blob.replaceAll("sha256:",""),headers);
 
     }
+
+    @Test
+    public  void testPull2(){
+//        Oras.pull("http://192.168.3.103:5004","");
+    }
 }
