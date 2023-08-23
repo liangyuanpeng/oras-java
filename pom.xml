@@ -11,6 +11,9 @@
 
     <modules>
         <module>oras-maven-plugin</module>
+        <module>oras-core</module>
+        <module>oras-launcher</module>
+        <module>oras-test</module>
     </modules>
 
 </project>
